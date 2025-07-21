@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="../Rock Paper Scissor/index.css">
 </head>
 <body>
-    <h1 class="myH1">Rock Paper Scissors</h1>
-    <button class="buttons" id="rock">👊</button>
-    <button class="buttons" id="paper">🖐️</button>
-    <button class="buttons" id="scissors">✌️</button>
+    <div id="container-wrapper">
+        <h1 class="myH1">Rock Paper Scissors</h1>
+        <div id="button-wrapper">
+            <button class="buttons" id="rock">👊</button>
+            <button class="buttons" id="paper">🖐️</button>
+            <button class="buttons" id="scissors">✌️</button>
+        </div>
 
-    <h3 id="playerDisplay">PLAYER: </h3>
-    <h3 id="computerDisplay">Computer: </h3>]
+        <div id="displayContainer">
+            <h3 id="playerDisplay">PLAYER: </h3>
+            <h3 id="computerDisplay">Computer: </h3>
+        </div>
 
-    <p id="resultDisplay">Result: </p>
+        <p id="resultDisplay">Result: </p>
 
-    <p id="playerScoreDisplay">Player Scores: </p>
-    <p id="computerScoreDisplay">Computer Scores: </p>
+        <div id="scoreContainer">
+            <p id="playerScoreDisplay">Player Scores: </p>
+            <p id="computerScoreDisplay">Computer Scores: </p>
+        </div>
 
+    </div>
     <script src="../Rock Paper Scissor/index.js"></script>
 </body>
 </html>
